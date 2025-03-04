@@ -4,10 +4,10 @@
     box-sizing: border-box;
     list-style: none;
   }
-  
-  :root {
+  /*changed light mode as root and  root as dark mode*/
+  .light-mode {
     --color-primary: #191d2b;
-    --color-secondary:  #f83eab;
+    --color-secondary:  #3f94b6;
     --color-white: #FFFFFF;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -21,9 +21,9 @@
     --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
   }
   
-  .light-mode {
-    --color-primary: #FFFFFF;
-    --color-secondary: #F56692;
+  :root {
+    --color-primary: #FAF3F3;
+    --color-secondary: #3f94b6;
     --color-white: #454e56;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -326,7 +326,7 @@
   .about-stats .progress-bars .progress-bar .progress-con .progress .bootstrap {
     width: 75%;
   }
-  .about-stats .progress-bars .progress-bar .progress-con .progress .c {
+  .about-stats .progress-bars .progress-bar .progress-con .progress .reactjs {
     width: 50%;
   }
   .about-stats .progress-bars .progress-bar .progress-con .progress .sql {
